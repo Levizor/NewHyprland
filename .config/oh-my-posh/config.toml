@@ -1,47 +1,49 @@
 #:schema https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json
 
 version = 2
-final_space = true
 
 [[blocks]]
   type = 'prompt'
   alignment = 'left'
 
   [[blocks.segments]]
-    type = 'path'
-    style = 'diamond'
-    template = '<#42E66C> >{{ .Path }}'
+    type = 'session'
+    style = 'plain'
+    template = ' '
     background = ''
-    foreground = '#F1FA8C'
+    foreground = '#58abf2'
     Text = ''
     Duration = 0
-    NameLength = 3
+    NameLength = 0
+
+  [[blocks.segments]]
+    type = 'path'
+    style = 'plain'
+    template = '  {{ .Path }} '
+    background = ''
+    foreground = '#f1bc54'
+    Text = ''
+    Duration = 0
+    NameLength = 0
 
     [blocks.segments.properties]
-      style = 'folder'
+      folder_separator_icon = '/'
+      style = 'full'
 
   [[blocks.segments]]
     type = 'git'
-    style = 'diamond'
-    template = '<#ffffff> ⚡</><b>{{ .HEAD }}</b>'
+    style = 'plain'
+    powerline_symbol = ''
+    template = '{{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} '
     background = ''
-    foreground = '#43CCEA'
+    foreground = '#14A5AE'
     Text = ''
     Duration = 0
     NameLength = 0
 
     [blocks.segments.properties]
-      branch_icon = ''
-
-  [[blocks.segments]]
-    type = 'text'
-    style = 'diamond'
-    template = '<#ff0000> 󰣇 '
-    background = ''
-    foreground = '#ff0000'
-    Text = ''
-    Duration = 0
-    NameLength = 0
+      fetch_stash_count = true
+      fetch_upstream_icon = true
 
 [[blocks]]
   type = 'prompt'
@@ -49,11 +51,21 @@ final_space = true
   newline = true
 
   [[blocks.segments]]
+    type = 'root'
+    style = 'plain'
+    template = ' '
+    background = ''
+    foreground = '#cd5e42'
+    Text = ''
+    Duration = 0
+    NameLength = 0
+
+  [[blocks.segments]]
     type = 'text'
     style = 'plain'
-    template = '>'
+    template = ' '
     background = ''
-    foreground = '#FFFFFF'
+    foreground = '#58abf2'
     Text = ''
     Duration = 0
     NameLength = 0

@@ -47,6 +47,7 @@
         "format-icons": [""]
     },
     "hyprland/language": {
+        "format": "{short}{variant}"
         "format-ru": "Ru",
         "format-en":"En",
         "format-uk": "Uk"
