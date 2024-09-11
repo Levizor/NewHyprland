@@ -1,0 +1,135 @@
+[2024-08-22 19:36:20.298] [info] Using configuration file /home/levizor/.config/waybar/config
+[2024-08-22 19:36:20.299] [info] Using CSS file /home/levizor/.config/waybar/style.css
+[2024-08-22 19:36:20.307] [info] Hyprland IPC starting
+[2024-08-22 19:36:20.308] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-22 19:36:20.332] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-22 19:36:20.596] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-22 19:36:20.596] [info] Bar configured (width: 1920, height: 37) for output: eDP-1
+[2024-08-22 19:36:20.597] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-22 19:36:20.597] [info] Bar configured (width: 1280, height: 37) for output: HDMI-A-1
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.640: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.641: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.641: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.641: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.641: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.641: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.641: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:19160): Gtk-CRITICAL **: 19:36:20.642: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[2024-08-22 20:06:03.193] [info] Using configuration file /home/levizor/.config/waybar/config
+[2024-08-22 20:06:03.196] [info] Using CSS file /home/levizor/.config/waybar/style.css
+[2024-08-22 20:06:03.201] [info] Hyprland IPC starting
+[2024-08-22 20:06:03.203] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-22 20:06:03.228] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-22 20:06:03.495] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-22 20:06:03.495] [info] Bar configured (width: 1920, height: 37) for output: eDP-1
+[2024-08-22 20:06:03.495] [error] Item '': No icon name or pixmap given.
+[2024-08-22 20:06:03.542] [error] Item '': No icon name or pixmap given.
+[2024-08-22 20:06:03.547] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-22 20:06:03.547] [info] Bar configured (width: 1280, height: 37) for output: HDMI-A-1
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.571: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.571: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.571: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.571: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.572: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.572: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.572: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.573: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.574: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.575: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.576: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.576: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.577: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.577: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.577: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.577: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.578: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.578: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.579: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.579: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.579: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.579: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.580: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:21356): Gtk-CRITICAL **: 20:06:03.580: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+Gdk-Message: 00:06:57.917: Error reading events from display: Broken pipe
+[2024-08-27 12:57:17.352] [info] Using configuration file /home/levizor/.config/waybar/config
+[2024-08-27 12:57:17.354] [info] Using CSS file /home/levizor/.config/waybar/style.css
+[2024-08-27 12:57:17.360] [info] Hyprland IPC starting
+[2024-08-27 12:57:17.362] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-27 12:57:17.387] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-27 12:57:17.733] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-27 12:57:17.734] [info] Bar configured (width: 1920, height: 37) for output: eDP-1
+[2024-08-27 12:57:17.735] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-27 12:57:17.735] [info] Bar configured (width: 1280, height: 37) for output: HDMI-A-1
+[2024-08-27 12:58:47.209] [info] Using configuration file /home/levizor/.config/waybar/config
+[2024-08-27 12:58:47.211] [info] Using CSS file /home/levizor/.config/waybar/style.css
+[2024-08-27 12:58:47.217] [info] Hyprland IPC starting
+[2024-08-27 12:58:47.219] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-27 12:58:47.244] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-27 12:58:47.618] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-27 12:58:47.618] [info] Bar configured (width: 1920, height: 37) for output: eDP-1
+[2024-08-27 12:58:47.619] [warning] Requested height: 32 is less than the minimum height: 37 required by the modules
+[2024-08-27 12:58:47.620] [info] Bar configured (width: 1280, height: 37) for output: HDMI-A-1

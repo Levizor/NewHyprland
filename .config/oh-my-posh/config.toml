@@ -44,6 +44,10 @@ version = 2
     [blocks.segments.properties]
       fetch_stash_count = true
       fetch_upstream_icon = true
+  [[blocks.segments]]
+    type = 'python'
+    template = "{{if .Venv}}({{.Venv}}){{end}}"
+
 
 [[blocks]]
   type = 'prompt'
@@ -69,3 +73,5 @@ version = 2
     Text = ''
     Duration = 0
     NameLength = 0
+
+

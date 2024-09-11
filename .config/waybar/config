@@ -7,9 +7,10 @@
   "gtk-layer-shell": true,
   "passthrough": false,
   "fixed-center": true,
-  "modules-left": ["clock#simpleclock", "hyprland/window"],
-  "modules-center": ["hyprland/workspaces"],
+  "modules-left": ["clock#simpleclock", "hyprland/window", "hyprland/submap", ],
+  "modules-center": [  "hyprland/workspaces"],
   "modules-right": [
+    "network",
     "cpu",
     "memory",
     "pulseaudio",
@@ -25,10 +26,9 @@
     "on-click-middle": "playerctl -p spotify next",
     "exec": "spotifatius monitor",
   },
-  "wlr/workspaces": {
+  "hyprland/workspaces": {
     "on-click": "activate",
     "format": "{name}",
-    "all-outputs": true,
     "disable-scroll": false,
     "active-only": false,
   },
@@ -39,15 +39,32 @@
   "clock#simpleclock": {
     "tooltip": false,
     "format": "  {:%H:%M}",
+    "timezone": "Europe/Warsaw"
   },
   "clock": {
     "format": "  {:L%a %d %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "timezone": "Europe/Warsaw"
   },
   "cpu": {
     "format": "  {usage}%",
     "tooltip": true,
     "interval": 1,
+  },
+  "hyprland/language": {
+    "format": "{shortDescription} {variant}",
+  },
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "{essid}({signalStrength}%) ",
+    "format-ethernet": "{ifname} ",
+    "format-disconnected": "", //An empty format will hide the module.
+    "format-disconnected": "",
+    "tooltip-format": "{ifname}",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
   },
   "memory": {
     "format": "  {used:0.2f}G",

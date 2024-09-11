@@ -58,6 +58,8 @@ window#waybar.hidden {
 #tray,
 #memory,
 #language,
+#network,
+#submap,
 #window {
   min-height: 0;
   padding: 2px 10px;
@@ -121,6 +123,14 @@ window#waybar.empty #window {
 
 #language {
   color: #90ADE7;
+}
+
+#network {
+  color: #026A6E
+}
+
+#submap {
+  color: #89b4fa;
 }
 
 #pulseaudio.muted {

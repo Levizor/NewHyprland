@@ -16,10 +16,8 @@ format=$(echo $format | grep -oe '8888')
 
 if [[ -z $format ]]; then
   hyprctl keyword monitor $monitor, $resoultion, $at, 1,
-  rm ~/.cache/scrensharefix
   notify-send Screenshare Unfixed
 else
   hyprctl keyword monitor $monitor, $resoultion, $at, 1, bitdepth, 10
-  touch ~/.cache/scrensharefix
   notify-send Screenshare Fixed
 fi
